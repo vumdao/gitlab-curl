@@ -22,6 +22,7 @@
 ![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/5g1ub7tnfdal48pz5noj.png)
 
 ### 🚀 **[Get raw file from repository](#-Get-raw-file-from-repository)**
+Ref: https://docs.gitlab.com/ee/api/repository_files.html#get-raw-file-from-repository
 - Format: `GET /projects/:id/repository/files/:file_path/raw`
 - eg. `curl --header "PRIVATE-TOKEN: <your_access_token>" "https://gitlab.example.com/api/v4/projects/13083/repository/files/app%2Fmodels%2Fkey%2Erb/raw?ref=master"`
 
